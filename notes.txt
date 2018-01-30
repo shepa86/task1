@@ -1,0 +1,26 @@
++++ https://s3.amazonaws.com/scrstorage/ho235250y91bdn9714.jpg на тег p классы не вешаем (а также не пишем стилий, кроме отступов. Исключением является Zurb (в нем на этот тег прописывается line-height))ю Тут можно сделать strong.form-title.
++++ https://s3.amazonaws.com/scrstorage/ck2q3p421v9b748379.jpg навигации используем с тегом nav (бдредкрамсы, пагинация). В футтере не используем тег nav для навигации
++++https://s3.amazonaws.com/scrstorage/k2336703023xl7i1.jpg альты прописывать
++++https://s3.amazonaws.com/scrstorage/233tytr35097at397u5.jpg ставить # в пустых ссылках
++++ logo - https://s3.amazonaws.com/scrstorage/ax233186d559y881.jpg
++++ https://s3.amazonaws.com/scrstorage/yan23260i092ij72l0p0.jpg - пустые строки не нужно оставлять
++++ https://s3.amazonaws.com/scrstorage/f23r79syp66n88w5693.jpg - я использую вот такую стурктуру для input (например когда будет валидация, а она будет, то тебе нужно будет спозиционировать сообщение над инпутом. Именно для этого тебе и понадобиться обертка вокруг инпута.)
+??? https://s3.amazonaws.com/scrstorage/p239be69756h1y694.jpg на свг  нужно прописывать размеры имаги инлайново. Это нужно для того что бы в других браузерах она отображалась одинаково.
++++ https://s3.amazonaws.com/scrstorage/e24t1o999042212.jpg немного нужно поменять структуру вот тут. Это должен быть универсальный блок, который можно потом вставить в другом месте. Плюс в arcticles практически всегда заголовок тоже должен быть ссылкой.
+- https://s3.amazonaws.com/scrstorage/2r43b4e306h6773x5.jpg лишняя вложенность
+- https://s3.amazonaws.com/scrstorage/qryy244e820b015428.jpg лишние стили
+- https://s3.amazonaws.com/scrstorage/2h46e72ao462906r7.jpg обнуление списка
+- https://s3.amazonaws.com/scrstorage/ah2f46879382373.jpg - с этим свойством всегда нужно использовать vertical-align: top;
+- https://s3.amazonaws.com/scrstorage/24i81ri177189l2g2.jpg старайся использовать короткую запись
+- https://s3.amazonaws.com/scrstorage/f2486hv5u28056n37.jpg - лишнее свойство
+- https://s3.amazonaws.com/scrstorage/xt249358tvco39e4469.jpg вот это пишем всегда. Служит для того что бы убрать лишний горизонтальный скролл на странице.
+- https://s3.amazonaws.com/scrstorage/2520sqoc015kb16978.jpg стилизацию кнопок лучше делать более гидкой
+- https://s3.amazonaws.com/scrstorage/25tj2w5790n32278.jpg перенести в header.scss
+- https://s3.amazonaws.com/scrstorage/25a45w8395f1711.jpg
+- https://s3.amazonaws.com/scrstorage/v25513u370dt353c8.jpg по возможности старайся использовать что-то одно
+- https://s3.amazonaws.com/scrstorage/25601j2g1444b7x7.jpg не используй таких конструкций для отступов. Элементов может быть больше.
+- https://s3.amazonaws.com/scrstorage/r25hbg7o39r0576837.jpg
+- https://s3.amazonaws.com/scrstorage/2581376s638x83.jpg тут должен быть падинг. потому что маржин добавляет ширину к твоему блоку
+- https://s3.amazonaws.com/scrstorage/pf2593856e7wuo2033.jpg
+- стили для футтера в футтер вынеси
+- https://s3.amazonaws.com/scrstorage/s260g928h05f186he5.jpg класс лишний
