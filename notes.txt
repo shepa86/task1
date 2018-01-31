@@ -1,12 +1,28 @@
-+++ https://s3.amazonaws.com/scrstorage/ho235250y91bdn9714.jpg на тег p классы не вешаем (а также не пишем стилий, кроме отступов. Исключением является Zurb (в нем на этот тег прописывается line-height))ю Тут можно сделать strong.form-title.
-+++ https://s3.amazonaws.com/scrstorage/ck2q3p421v9b748379.jpg навигации используем с тегом nav (бдредкрамсы, пагинация). В футтере не используем тег nav для навигации
-+++https://s3.amazonaws.com/scrstorage/k2336703023xl7i1.jpg альты прописывать
-+++https://s3.amazonaws.com/scrstorage/233tytr35097at397u5.jpg ставить # в пустых ссылках
-+++ logo - https://s3.amazonaws.com/scrstorage/ax233186d559y881.jpg
-+++ https://s3.amazonaws.com/scrstorage/yan23260i092ij72l0p0.jpg - пустые строки не нужно оставлять
-+++ https://s3.amazonaws.com/scrstorage/f23r79syp66n88w5693.jpg - я использую вот такую стурктуру для input (например когда будет валидация, а она будет, то тебе нужно будет спозиционировать сообщение над инпутом. Именно для этого тебе и понадобиться обертка вокруг инпута.)
-??? https://s3.amazonaws.com/scrstorage/p239be69756h1y694.jpg на свг  нужно прописывать размеры имаги инлайново. Это нужно для того что бы в других браузерах она отображалась одинаково.
-+++ https://s3.amazonaws.com/scrstorage/e24t1o999042212.jpg немного нужно поменять структуру вот тут. Это должен быть универсальный блок, который можно потом вставить в другом месте. Плюс в arcticles практически всегда заголовок тоже должен быть ссылкой.
+﻿
++++++++++++++   2   ++++++++++++++++++++++++
+
+input:not(type=submit):not(type=reset)
+++++ для формы нужно обнулять дефолтный естили (глобально -- отступ, паддинг, высота, ширина, отступы, фон, шрифт)
+++++  https://s3.amazonaws.com/scrstorage/r184e955nq729246.jpg лишний отступ
+++++ лучше писать и line-height в тех местах где используешь font-size.
+++++ https://s3.amazonaws.com/scrstorage/1b872b8qq3561t7e51.jpg эти файлы должны быть быть layouts. В компонетах лежат стили уникальных блоков и элементов (формы, кнопки , карусели и тд)
+++++ цвета в переменные вынеси (красный серый белый черный серый)
+++++ https://s3.amazonaws.com/scrstorage/s260g928h05f186he5.jpg класс лишний
++++ https://s3.amazonaws.com/scrstorage/19y2k4w7h6996h5j2u7.jpg сейчас элемент висит относительно контейнера, а не ссылки + когда ты используешь позишни абсолют, всегда нужно указывать позиции.
++++ https://s3.amazonaws.com/scrstorage/jekxv193vb593m8j07o623.jpg https://s3.amazonaws.com/scrstorage/1jh9480156a1h243.jpg лишние стили
++++ https://s3.amazonaws.com/scrstorage/1i95i0c687e9r6671.jpg забыл с
+
++++++++++++++   1  ++++++++++++++++++++++++
+
+- https://s3.amazonaws.com/scrstorage/ho235250y91bdn9714.jpg на тег p классы не вешаем (а также не пишем стилий, кроме отступов. Исключением является Zurb (в нем на этот тег прописывается line-height))ю Тут можно сделать strong.form-title.
+- https://s3.amazonaws.com/scrstorage/ck2q3p421v9b748379.jpg навигации используем с тегом nav (бдредкрамсы, пагинация). В футтере не используем тег nav для навигации
+- https://s3.amazonaws.com/scrstorage/k2336703023xl7i1.jpg альты прописывать
+- https://s3.amazonaws.com/scrstorage/233tytr35097at397u5.jpg ставить # в пустых ссылках
+- logo - https://s3.amazonaws.com/scrstorage/ax233186d559y881.jpg
+- https://s3.amazonaws.com/scrstorage/yan23260i092ij72l0p0.jpg - пустые строки не нужно оставлять
+- https://s3.amazonaws.com/scrstorage/f23r79syp66n88w5693.jpg - я использую вот такую стурктуру для input (например когда будет валидация, а она будет, то тебе нужно будет спозиционировать сообщение над инпутом. Именно для этого тебе и понадобиться обертка вокруг инпута.)
+- https://s3.amazonaws.com/scrstorage/p239be69756h1y694.jpg на свг  нужно прописывать размеры имаги инлайново. Это нужно для того что бы в других браузерах она отображалась одинаково.
+- https://s3.amazonaws.com/scrstorage/e24t1o999042212.jpg немного нужно поменять структуру вот тут. Это должен быть универсальный блок, который можно потом вставить в другом месте. Плюс в arcticles практически всегда заголовок тоже должен быть ссылкой.
 - https://s3.amazonaws.com/scrstorage/2r43b4e306h6773x5.jpg лишняя вложенность
 - https://s3.amazonaws.com/scrstorage/qryy244e820b015428.jpg лишние стили
 - https://s3.amazonaws.com/scrstorage/2h46e72ao462906r7.jpg обнуление списка
